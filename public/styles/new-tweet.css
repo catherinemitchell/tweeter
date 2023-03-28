@@ -1,0 +1,101 @@
+main {
+  text-align: left;
+  width: 90%;
+  font-family: 'Source Sans Pro', sans-serif;
+  /* border: 1px solid red; */
+  padding: 0 10px;
+ }
+
+textarea {
+  border-width: 0px;
+  border-bottom: 5px solid black;
+  width: 100%; 
+  background-color: transparent;
+}
+
+.new-tweet {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.tweet-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Bungee', cursive;
+  flex-direction: flex-end;
+  color: white;
+  background-color: blue;
+ }
+
+output {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  font-family: 'Bungee', cursive;
+ }
+
+ .tweeted {
+  background-color: transparent;
+  border: 5px solid black;
+  width: 100%;
+  margin-bottom: 2em;
+ }
+ 
+ .tweeted:hover {
+  box-shadow: 0 0 11px rgba(33,33,33,33)
+ }
+
+ .tweeted-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  margin: auto;
+  width: 95%;
+ }
+
+ .tweeted-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin: auto;
+ }
+
+ .tweet-itself {
+  border-width: 0px;
+  border-bottom: 5px solid black;
+  width: 95%;
+  margin: auto;
+  
+ }
+
+ .tweet-avatar {
+  width: 4em;
+  height: 4em;
+ }
+
+ .header-avatar {
+  display: flex;
+  align-items: center;
+ }
+
+ .fa-flag:hover {
+  color: green;
+ }
+
+ .fa-retweet:hover {
+  color: green;
+ }
+
+ .fa-heart:hover {
+  color: green;
+ }
