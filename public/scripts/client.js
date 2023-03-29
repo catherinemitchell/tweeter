@@ -98,7 +98,7 @@ $(document).ready(function() {
         </div>
       </div>
       <div class="tweet-itself">
-      <p>${tweet.content.text}</p>
+      ${$("<p>").text(tweet.content.text).html()}
       </div>
       <footer class="tweeted-footer">
         <div>
