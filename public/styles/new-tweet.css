@@ -103,3 +103,15 @@ output {
  .fa-heart:hover {
   color: green;
  }
+
+ .ErrMsg {
+  /* display: flex;
+  align-items: center; */
+  border: 2px solid red;
+  padding: 10px;
+  border-radius: 5px;
+  width: auto;
+  margin-top: 1em;
+  display: none;
+  /* visibility: hidden; */
+ }
