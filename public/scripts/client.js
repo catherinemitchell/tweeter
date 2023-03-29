@@ -73,14 +73,15 @@
 
 $(document).ready(function() {
 
+
   const renderTweets = function(tweets) {
     const $tweetsContainer = $('.tweets-container');
     for (let tweet of tweets) {
 
-      
-        $tweetsContainer.prepend(createTweetElement(tweet));
-      }
-    
+      $tweetsContainer.prepend(createTweetElement(tweet));
+
+    }
+
   };
 
 
@@ -116,29 +117,40 @@ $(document).ready(function() {
     return tweetHTML;
   };
 
- 
-
-
 
   $('form').on('submit', function(event) {
     event.preventDefault();
     // const input = $('#tweet-text').val();
-    console.log(this);
+    // console.log(this);
 
-    const textArea = $(this).find("textarea").val()
-    console.log("success", textArea);
-    console.log("textAreaLength", textArea.length)
-    
+    const textArea = $(this).find("textarea").val();
+    // console.log("success", textArea);
+    // console.log("textAreaLength", textArea.length)
+
+
+    // if (textArea.length < 1) {
+    //   window.alert("must enter your tweet!");
+    //   return
+    // }
+
+    // if (textArea.length > 140) {
+    //   window.alert("tweet is too long!");
+    //   return
+    // } 
+
+    $(".ErrMsg").slideUp();
 
     if (textArea.length < 1) {
-      window.alert("must enter your tweet!");
-      return
+      $(".ErrMsg").text("Must enter your tweet!")
+        .slideDown("slow");
+      return;
     }
-    
+
     if (textArea.length > 140) {
-      window.alert("tweet is too long!");
-      return
-    } 
+      $(".ErrMsg").text("Your tweet is too long!")
+        .slideDown("slow");
+      return;
+    }
 
     const tweetText = $(this).serialize();
 
@@ -147,13 +159,13 @@ $(document).ready(function() {
       url: "/tweets",
       data: tweetText,
       success: function() {
-        $('textarea').val('')
-        $('.counter').text(140)
+        $('textarea').val('');
+        $('.counter').text(140);
         $.get('/tweets', (data) => {
-          console.log(data.slice(-1))
-          renderTweets(data.slice(-1))
-          
-        })
+          console.log(data.slice(-1));
+          renderTweets(data.slice(-1));
+
+        });
       }
     });
   });
