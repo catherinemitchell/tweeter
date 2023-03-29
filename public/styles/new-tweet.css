@@ -41,14 +41,18 @@ output {
   font-family: 'Bungee', cursive;
  }
 
- .tweeted {
+ .tweets-container {
+   width: 100%;
+ }
+
+ .tweet-container {
   background-color: transparent;
   border: 5px solid black;
   width: 100%;
   margin-bottom: 2em;
  }
  
- .tweeted:hover {
+ .tweet-container:hover {
   box-shadow: 0 0 11px rgba(33,33,33,33)
  }
 
