@@ -14,9 +14,9 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Final Product
 
-!["Screenshot of tweet box in small screen browser"] (https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-box-small-browser.png?raw=true)
-!["Screenshot of tweet browser full size"] (https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-browser-full-size.png?raw=true)
-!["Screenshot of tweet browser small size"] (https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-browser-small-size.png?raw=true)
+![Screenshot of tweet box in small screen browser](https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-box-small-browser.png?raw=true)
+![Screenshot of tweet browser full size](https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-browser-full-size.png?raw=true)
+![Screenshot of tweet browser small size](https://github.com/catherinemitchell/tweeter/blob/master/docs/Tweet-browser-small-size.png?raw=true)
 
 
 ## Dependencies
