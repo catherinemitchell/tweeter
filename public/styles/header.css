@@ -13,8 +13,8 @@
 }
 
 @media only screen and (min-width: 1024px) {
-.header {
-  width: 70%;
-  margin: 6em 2em 0;
-}
+  .header {
+    width: 70%;
+    margin: 6em 2em 0;
+  }
 }
