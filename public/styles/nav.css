@@ -14,7 +14,7 @@
 
 .nav-right {
   font-family: 'Source Sans Pro', sans-serif;
-  
+
 }
 
 .nav-right-group {
@@ -29,13 +29,13 @@
     display: flex;
   }
 
-   #nav-bar {
+  #nav-bar {
     background-color: #4056A1;
-   }
- }
+  }
+}
 
- @media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   #nav-bar {
     background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
   }
- }
+}
