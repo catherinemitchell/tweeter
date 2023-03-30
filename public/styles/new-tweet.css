@@ -1,7 +1,7 @@
 main {
   text-align: left;
-  width: 90%;
-  font-family: 'Source Sans Pro', sans-serif;
+  width: 100%;
+  /* font-family: 'Source Sans Pro', sans-serif; */
   /* border: 1px solid red; */
   padding: 0 10px;
  }
@@ -105,13 +105,16 @@ output {
  }
 
  .ErrMsg {
-  /* display: flex;
-  align-items: center; */
   border: 2px solid red;
   padding: 10px;
   border-radius: 5px;
   width: auto;
   margin-top: 1em;
   display: none;
-  /* visibility: hidden; */
+ }
+
+ @media only screen and (min-width: 1024px) {
+  .new-tweet {
+    margin-top: 5em;
+  }
  }
