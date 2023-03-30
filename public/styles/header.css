@@ -1,15 +1,25 @@
-header {
+.header {
   display: flex;
   height: 520px;
   width: 100%;
   background-color: #b3b300;
   background-image: url("https://www.transparenttextures.com/patterns/black-thread-light.png");
-  font-family: 'Source Sans Pro', sans-serif;
+  /* font-family: 'Source Sans Pro', sans-serif; */
   flex-direction: column;
-  align-items: center
-  
+  align-items: center;
+  /* position: fixed; */
 }
 
 .header-image {
   margin-top: 160px;
+}
+
+@media only screen and (min-width: 1024px) {
+.header {
+  width: 70%;
+  margin: 6em 2em 0;
+  
+  /* height: 70%; */
+ 
+}
 }
