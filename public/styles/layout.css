@@ -32,6 +32,9 @@ main {
   display: flex;
   width: 90%;
   flex-direction: column;
+  text-align: left;
+  padding: 0 10px;
+  margin: 0 auto;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -39,5 +42,15 @@ main {
   body {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .header {
+    width: 20%;
+  }
+
+  main {
+    width: 70%;
   }
 }
