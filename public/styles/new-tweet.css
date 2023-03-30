@@ -2,12 +2,12 @@ main {
   text-align: left;
   width: 100%;
   padding: 0 10px;
- }
+}
 
 textarea {
   border-width: 0px;
   border-bottom: 5px solid black;
-  width: 100%; 
+  width: 100%;
   background-color: transparent;
 }
 
@@ -29,7 +29,7 @@ button {
   flex-direction: flex-end;
   color: white;
   background-color: blue;
- }
+}
 
 output {
   display: flex;
@@ -37,24 +37,24 @@ output {
   justify-content: flex-end;
   align-items: flex-end;
   font-family: 'Bungee', cursive;
- }
+}
 
- .tweets-container {
-   width: 100%;
- }
+.tweets-container {
+  width: 100%;
+}
 
- .tweet-container {
+.tweet-container {
   background-color: transparent;
   border: 5px solid black;
   width: 100%;
   margin-bottom: 2em;
- }
- 
- .tweet-container:hover {
-  box-shadow: 0 0 11px rgba(33,33,33,33)
- }
+}
 
- .tweeted-header {
+.tweet-container:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 33)
+}
+
+.tweeted-header {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -62,17 +62,17 @@ output {
   background-color: transparent;
   margin: auto;
   width: 95%;
- }
+}
 
- .tweeted-footer {
+.tweeted-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 95%;
   margin: auto;
- }
+}
 
- .tweet-itself {
+.tweet-itself {
   border-width: 0px;
   border-bottom: 5px solid black;
   width: 95%;
@@ -80,46 +80,46 @@ output {
   overflow-wrap: break-word;
   overflow: hidden;
 
-  
- }
 
- .tweet-avatar {
+}
+
+.tweet-avatar {
   width: 4em;
   height: 4em;
- }
+}
 
- .header-avatar {
+.header-avatar {
   display: flex;
   align-items: center;
- }
+}
 
- .fa-flag:hover {
+.fa-flag:hover {
   color: green;
- }
+}
 
- .fa-retweet:hover {
+.fa-retweet:hover {
   color: green;
- }
+}
 
- .fa-heart:hover {
+.fa-heart:hover {
   color: green;
- }
+}
 
- .ErrMsg {
+.ErrMsg {
   border: 2px solid red;
   padding: 10px;
   border-radius: 5px;
   width: auto;
   margin-top: 1em;
   display: none;
- }
+}
 
- textarea {
+textarea {
   resize: none;
- }
+}
 
- @media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) {
   .new-tweet {
     margin-top: 5em;
   }
- }
+}
